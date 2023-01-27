@@ -77,7 +77,7 @@ a {
 .app-header .burger-menu:focus {
   outline: none;
 }
-@media screen and (min-width: 768px) {
+@media (min-width: 768px) {
   .app-header .burger-menu {
     visibility: hidden;
   }
@@ -101,7 +101,7 @@ a {
 .app-header .menu a:hover {
   color: #43ABF0;
 }
-@media screen and (min-width: 768px) {
+@media (min-width: 768px) {
   .app-header .menu {
     visibility: visible;
     position: inherit;
@@ -552,6 +552,7 @@ a {
 }
 .ordering-block .ordering_content .ordering_form .form_inputs .select-container ul::-webkit-scrollbar-track {
   background: #3D4050;
+  border-radius: 0 0 3px 0;
 }
 .ordering-block .ordering_content .ordering_form .form_inputs .select-container ul::-webkit-scrollbar-thumb {
   background: #3E9CDC;
@@ -701,6 +702,7 @@ a {
 }
 @media (min-width: 1440px) {
   .ordering-block .ordering_content .ordering_form .form_submit-button {
+    width: 370px;
     height: 48px;
     font-size: 18px;
     margin-top: 50px;

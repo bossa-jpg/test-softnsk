@@ -70,7 +70,7 @@ a {
         &:focus {
             outline: none;
         }
-        @media screen and (min-width: 768px) {
+        @media (min-width: 768px) {
             visibility: hidden;
         }
     }
@@ -93,7 +93,7 @@ a {
                 color: #43ABF0
             }
         }
-        @media screen and (min-width: 768px) {
+        @media (min-width: 768px) {
             visibility: visible;
             position: inherit;
             flex-direction: row;
@@ -462,6 +462,7 @@ a {
                         }
                         &::-webkit-scrollbar-track {
                             background: #3D4050;
+                            border-radius: 0 0 3px 0;
                         }
                         &::-webkit-scrollbar-thumb {
                             background: #3E9CDC;
@@ -595,6 +596,7 @@ a {
                     width: 232px;
                 }
                 @media (min-width: 1440px) {
+                    width: 370px;
                     height: 48px;
                     font-size: 18px;
                     margin-top: 50px;
