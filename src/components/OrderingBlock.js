@@ -14,9 +14,12 @@ const selectOptions = [
   "Et harum quidem",
   "Temporibus autem",
   "Itaque earum rerum",
-  "jdfnkjsndlkfmsd",
-  "lsdkflqk;l;f",
-  "dllejiajlksfm",
+  "Temporibus autem",
+  "Itaque earum rerum",
+  "Temporibus autem",
+  "Itaque earum rerum",
+  "Temporibus autem",
+  "Itaque earum rerum",
 ];
 
 const OrderSeparate = () => {
@@ -131,7 +134,7 @@ export const OrderingBlock = () => {
               </span>
             </label>
           </div>
-          <button className="form_submit-button input" type="submit">
+          <button className="form_submit-button" type="submit">
             Отправить
           </button>
         </form>
